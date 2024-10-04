@@ -2,15 +2,132 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Panda-Commerce</title>
-    <link rel="stylesheet" href="style.css" />
+
     <link rel="stylesheet" href="css/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
   </head>
   <body>
-    <div><img src="images/logo.png" alt="" /></div>
+    <div class="container">
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Shoes</a>
+              <a class="nav-link" href="#">Backpack</a>
+              <a class="nav-link" href="#">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- carousel -->
+    <div class="container">
+      <div
+        id="carouselExample"
+        class="carousel slide orange-bg"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <div class="row align-items-center">
+              <div class="col-7">
+                <h1>Mega LCD TV For sports</h1>
+                <p>
+                  This Is The best Tv In the World For People Who Just Want To
+                  Spend Time In Front Of Tv
+                </p>
+                <h1 class="price">$1200</h1>
+                <button class="buy-now-btn">Buy Now</button>
+              </div>
+              <div class="col-5">
+                <img
+                  src="images/banner-images/tv.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <div class="row align-items-center">
+              <div class="col-7">
+                <h1>Cool Dude Headphone</h1>
+                <p>
+                  This Is The best Headphone In the World For People Who Want To
+                  Listen Any Types Of Songs
+                </p>
+                <h1 class="price">$420</h1>
+                <button class="buy-now-btn">Buy Now</button>
+              </div>
+              <div class="col-5">
+                <img
+                  src="images/banner-images/headphone.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-7">
+                <h1>Xbox For Your Living Room</h1>
+                <p>
+                  This Is The Best Gadget For Playing Games, Explore Your
+                  Passion
+                </p>
+                <h1 class="price">$600</h1>
+                <button class="buy-now-btn">Buy Now</button>
+              </div>
+              <div class="col-5">
+                <img
+                  src="images/banner-images/xbox.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
     <!-- javascript -->
-    <script src="css/js/bootstrap.bundle.js"></script>
+    <script src="css/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
